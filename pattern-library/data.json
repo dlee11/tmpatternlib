@@ -1,0 +1,121 @@
+{
+    "project_logo": null,
+    "project_favicon": "favicon.png",
+    "project_name": "Toastmasters International",
+    "project_url": "http://www.toastmasters.org",
+    "copyright_start_year": 2017,
+    "client_name": "Toastmasters",
+    "client_url": "http://www.toastmasters.org",
+    "creators": [
+        {
+            "name": null,
+            "url": null
+        }
+    ],
+    "theme": {
+        "border_color": "#E0E6ED",
+        "highlight_color": "#F9FAFC",
+        "brand_color": "#772432",
+        "background_color": "#FFFFFF",
+        "code_highlight_theme": "github",
+        "override_code_highlight_bg": "#F9FAFC",
+        "sample_dark_background": "#333333",
+        "show_project_name": true,
+        "show_version": true,
+        "max_width": null,
+        "titles": {
+            "library_title": "Pattern Library",
+            "pages_title": "Overview",
+            "components_title": "Components"
+        }
+    },
+    "assets": {
+        "css": [
+            "https://www.toastmasters.org/Content/bootstrap.css",
+            "https://www.toastmasters.org/Content/css/Site.css",
+            "https://www.toastmasters.org/Content/css/Base/Inputs.css",
+            "https://www.toastmasters.org/Content/css/Base/Typography.css",
+            "https://www.toastmasters.org/Content/css/Base/Content.css",
+            "https://www.toastmasters.org/Content/css/Pathways/Overview.css",
+            "https://www.toastmasters.org/Content/css/Pathways/pathways.css"
+        ],
+        "js": [
+            "https://www.toastmasters.org/Scripts/main.js"
+        ]
+    },
+    "font_libraries": {
+        "typekit_code": null,
+        "typography_web_fonts": null,
+        "google_web_fonts": "https://fonts.googleapis.com/css?family=Source+Sans+Pro"
+    },
+    "content": {
+        "show_first_page_on_load": true,
+        "title": "Overview",
+        "pages": [
+            {
+                "name": "introduction",
+                "title": "Introduction",
+                "file": "./pages/intro.md"
+            }
+        ]
+    },
+    "groups": [
+        {
+            "name": "branding",
+            "title": "Primary Colors",
+            "components": [
+                {
+                    "group": "branding",
+                    "name": "primary-colors",
+                    "title": "Primary Colors",
+                    "type": "colors",
+                    "colors": [
+                        "#772432",
+                        "#003143",
+                        "#004165",
+                        "#F2DF74",
+                        "#A9B2B1",
+                        "#444444",
+                        "#F5F5F5",
+                        "#DCDCDC"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "buttons",
+            "title": "Buttons",
+            "components": [
+                {
+                    "group": "buttons",
+                    "name": "primary-buttons",
+                    "title": "Primary Button",
+                    "width": "half"
+                }
+            ]
+        },
+        {
+            "name": "typography",
+            "title": "Typography",
+            "components": [
+                {
+                    "group": "typography",
+                    "name": "headings",
+                    "title": "Headings"
+                }
+            ]
+        },
+        {
+            "name": "modals",
+            "title": "Modals",
+            "components": [
+                {
+                    "group": "modals",
+                    "name": "modals",
+                    "title": "Modals"
+                }
+            ]
+        }
+    ],
+    "version": "1.9.3"
+}
